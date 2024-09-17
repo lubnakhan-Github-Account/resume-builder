@@ -1,0 +1,96 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    margin: 30px auto;
+    background-image:url(https://plus.unsplash.com/premium_photo-1701534008693-0eee0632d47a?q=80&w=1631&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size:cover;
+    background-position:center;
+}
+.heading{
+    width:500px;
+    height:80px;
+    /* margin-left:10%; */
+    /* text-shadow: 4px 5px 4px 2px black; */
+    box-shadow:2px 3px 4px 3px black;
+    font-size:30px;
+    text-align:center;
+    background-color:rgb(141, 250, 250);
+}
+.main{
+    width:80%;
+    /* background-color: aquamarine; */
+    position:absolute;
+    display:flex;
+    gap:50px;
+    margin-top: 9%;
+
+}
+.pic1{
+    width:250px;
+    height:300px;
+    border:1px solid;
+    background-image: url(https://marketplace.canva.com/EAFjRZP7Qy4/1/0/1131w/canva-minimalist-modern-professional-cv-resume-xkDELtpQH94.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 20px;
+}
+.pic2{
+    margin: 20px;
+    width:250px;
+    height:300px;
+    border:1px solid red;
+    background-image: url(https://cdn.create.microsoft.com/catalog-assets/en-us/ce343500-4aff-4dfa-b337-57c78459c6ee/thumbnails/616/modern-nursing-resume-orange-modern-geometric-1-1-1dc2d11a00d6.webp);
+    background-position: center;
+    background-size: cover;
+}
+.foot{
+    /* background-color: bisque; */
+    position: absolute;
+    margin-top:37%;
+    font-size: 20px;
+}
+.link{
+    margin-left: 70px;
+    /* background-color: brown; */
+}
+ .pic1:hover{
+    transform: scale(1.02);
+    transition: transform 0.6 s;
+}
+.pic2:hover{
+    transform: scale(1.02);
+    transition: transform 0.06 s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+   
+

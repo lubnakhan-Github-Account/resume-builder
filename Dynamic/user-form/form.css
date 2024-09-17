@@ -1,0 +1,35 @@
+
+
+body{
+    height: 100vh;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.header{
+background-color:black;
+text-align: center;
+color:white;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.form-section{
+    margin-top: 3px;
+    /* border: 1px solid; */
+    text-align: center;
+    box-shadow: 4px 5px 6px black;
+}
+.input-group{
+    margin: 10px;
+}
+.btn:hover{
+    background-color: lightsalmon;
+
+}
+.footer{
+    background-color: black;
+    text-align: center;
+    color:white;
+}

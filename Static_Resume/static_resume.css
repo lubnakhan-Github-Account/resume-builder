@@ -1,0 +1,132 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+  
+#maindiv{
+    width:70%;
+    max-width: 500px;
+    padding: 17px;
+    border-radius: 10px;
+    border: 1px solid;
+    box-shadow: 0px 4px 8px rbga(0,0,0,0.2);
+    margin-bottom: 30px;
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid;
+}
+.personal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.personal h1{
+    font-size: 36px;
+    color:brown;
+}
+.personal h2{
+    font-size: 18px;
+    margin-top: 5px;
+    color:#666
+}
+.contact-info{
+    display: flex;
+    justify-content: space-between;
+    padding: 7px;
+    margin-top: 20px;
+    background-color:#e0f7fa;
+    border-radius: 5px;
+}
+.contact-info .para{
+    font-size: 14px;
+    font-weight: 600;
+}
+.heading{
+    font-size: 24px;
+    color:#444;
+    padding: 10px;
+    background-color: #a09b9b;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.contpara{
+    font-size: 16px;
+    margin-top: 10px;
+}
+#skillSec ul{
+    margin-left: 25px;
+    
+}
+#btnDiv{
+    width: 70%;
+    max-width: 500px;
+    padding: 16px;
+    text-align: center;
+    background-color: bisque;
+    border-radius: 10px;
+}
+.btn{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #fff;
+    color: #333;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.5);
+}
+.btn:hover{
+    background-color: lightblue;
+}    
+.sp{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+@media (max-width:768px) {
+    #mainDiv #btnDiv{
+        width:100%;
+    }
+    .personal{
+        flex-direction: column;
+        text-align: center;
+    }
+    img{
+        margin-top: 20px;
+        
+    }
+    .contact-info{
+        flex-direction: column;
+    }
+    .btn{
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+#objectiveSec{
+    display: block;
+}
+#eduSec{
+    display: block;
+}
+#skillSec{
+    display: block;
+}
+#workExpSec{
+    display: block;
+}

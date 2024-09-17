@@ -1,0 +1,71 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>static_resume</title>
+    <link rel="stylesheet" href="static_resume.css">
+</head>
+<body>
+    <div id="maindiv">
+        <!-- personal info -->
+        <section>
+            <div class="personal">
+                <div>
+                    <h1><span id="name">Uzma Khan</span></h1>
+                    <h2><span id="jobTitle">Web Developer</span></h2>
+                </div>
+                   <img src="https://sharedp.com/wp-content/uploads/2024/06/cute-dp-for-girls-cartoon-960x1024.jpg" alt="profilepicture">
+            </div>
+            <div class="contact-info">
+                <p class="para">Phone:<span id="ph"> 03001234567</span></p>
+                <p class="para">Email:<span id="email" >lubna@gmail.com</span></p>
+                <p class="para">LinkedIn:<span id="linkedin"> lubnakhan122</span></p>
+            </div>
+        </section>
+        <!-- objective -->
+         <section id="objectivesec">
+            <h2 class="heading">Objective</h2>
+            <p class="contpara"> Detail-oriented and motivated web develpor with a strong foundation  
+              in HTML,CSS JavaScript and TypeScript.</p>
+            </section>
+            <!-- education -->
+        <section id="eduSec">
+            <h2 class="heading">Education</h2>
+            <p class="contpara"><span id="degree">Bachelor of Arts</span></p>
+            <p class="contpara"><span id="university">XYZ University</span></p>
+        </section>
+ <!-- skills -->
+  <section id="skillSec">
+    <h2 class="heading">Skills</h2>
+    <ul>
+        <li><span id="skill1" class="contpara">JavaScript</span></li>
+        <li><span id="skill2" class="contpara">TypeScript</span></li>
+        <li><span id="skill3" class="contpara">HTML & CSS</span></li>
+    </ul>
+  </section>
+  <!-- work experience -->
+  <section id="workExpSec" class="work-experience">
+    <h2 class="heading">Work Experience</h2>
+    <p class="contpara"><span id="jobTitleExp">Web Developer</span> 
+        at <span id="company">ABC Company</span></p>
+  </section>
+    </div>
+
+    <div id="btnDiv">
+    <h3>Toggle Section</h3>
+    <div class="sp">
+        <button id="objectivebtn" class="btn" data-target="objective">Objective</button>
+        <button id="Educationbtn" class="btn" data-target="education">Education</button>
+        <button id="skillsbtn" class="btn" data-target="skills">Skills</button>
+        <button id="WorkExpbtn" class="btn" data-target="workExperience">Work Experience</button>
+    </div>
+    </div>
+</body>
+<script src="static_resume.js"></script>
+</html>
+
+
+
